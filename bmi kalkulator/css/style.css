@@ -1,0 +1,103 @@
+/* body{
+    padding: 50px;
+} */
+
+header>h1 {
+    text-align: center;
+}
+
+.main-container{
+        display: flex;
+    }
+
+/* Display Style */
+
+.bmi-desc{
+    padding-left: 15px;
+}
+.container-item {
+    /* border: 1px solid; */
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* .container-item>button{
+    padding-left:1000px;
+} */
+
+.container-item>h2 {
+  text-align: center;
+   padding: 5px;
+}
+
+.container-result,
+.container-form{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+.container-form{
+    text-align:left;
+    background-color: aliceblue;
+    padding-left: 24px;
+    padding-top: 0px;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    height: 24px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+
+span{
+    color: red;
+}
+
+button {
+    height: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#calculate-button,
+#download-button,#download-button1,#download-button2{
+    background-color: rgb(106, 191, 227);
+    color: white;
+    cursor: pointer;
+}
+
+#calculate-button:hover,
+#download-button:hover{
+    background-color: blue;
+}
+
+.desc-kalkulator{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.frame{
+    /* display: inline-block; */
+    background-color: rgb(106, 191, 227);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px dotted black;
+  }
+
+  @media only screen and (max-width: 480px){
+    .main-container{
+        flex-direction: column;
+    }
+  }
